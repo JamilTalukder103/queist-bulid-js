@@ -25,7 +25,7 @@
             <div class="navbar-end">
                 <div class="flex items-center gap-x-2">
                     <img src="assets/coin.png" alt="">
-                    <h2 class="font-bold text-xl"><span class="text-gray-400">5000</span> BDT</h2>
+                    <h2 class="font-bold text-xl"><span id="balance-amount" class="text-gray-400">5000</span> BDT</h2>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
                 <div class="w-32 bg-gray-200 rounded-xl ">
                     <div class="flex space-x-2 justify-center  py-2">
                         <img src="assets/coin.png" alt="">
-                        <h2 class="font-bold text-xl"><span>0</span> BDT</h2>
+                        <h2 class="font-bold text-xl"><span id="total-donate-amount">10</span> BDT</h2>
                     </div>
                 </div>
                 <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
@@ -57,12 +57,14 @@
                 </p>
                 <div class="card-actions ">
                     <input class="w-full border-2 px-5 py-2 rounded-lg" type="text" placeholder="write donation amount"
-                        name="" id="">
-                    <button id="donate-now-btn" class="btn bg-[#B4F461] w-full ">Donate Now</button>
+                        name="" id="donate-input-amount">
+                    <button id="donate-now-btn" class="btn bg-[#B4F461] w-full ">Donate Now!</button>
                 </div>
             </div>
         </div>
     </main>
+    <script src="js/utilits.js"></script>
+    <script src="js/donate.js"></script>
 </body>
 
 </html>
