@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Build Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar space-x-10 bg-[#F9F7F3] px-20 py-5">
+            <div class="navbar-start">
+                <button class="btn bg-[#B4F461] px-4 text-xl">Blog</button>
+            </div>
+            <div class="navbar-center">
+                <div class="flex gap-x-3 items-center">
+                    <img src="assets/logo.png" alt="">
+                    <h3 class="text-xl font-bold">Donate Bangladesh</h3>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="flex items-center gap-x-2">
+                    <img src="assets/coin.png" alt="">
+                    <h2 class="font-bold text-xl"><span class="text-gray-400">5000</span> BDT</h2>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-10 gap-2 ">
+            <button class="btn bg-[#B4F461]">Donation</button>
+            <button class="btn">History</button>
+        </div>
+    </header>
+    <main class="m-auto w-5/6">
+        <div class="card lg:card-side bg-base-100 border-2 p-3 mt-8">
+
+            <div class="lg:w-6/12">
+                <img class="rounded-xl w-full h-96" src="assets/noakhali.png" alt="Album" />
+            </div>
+
+            <div class="card-body lg:w-6/12">
+                <div class="w-32 bg-gray-200 rounded-xl ">
+                    <div class="flex space-x-2 justify-center  py-2">
+                        <img src="assets/coin.png" alt="">
+                        <h2 class="font-bold text-xl"><span>0</span> BDT</h2>
+                    </div>
+                </div>
+                <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+                <p>The recent floods in Noakhali have caused significant damage to homes infrastructure. Your donation
+                    will help provide
+                    essential supplies and to those affected by this disaster. Every contribution, big or small, makes
+                    difference. Please
+                    join us in supporting the relief efforts and making a positive impact on the lives of those in need.
+                </p>
+                <div class="card-actions ">
+                    <input class="w-full border-2 px-5 py-2 rounded-lg" type="text" placeholder="write donation amount"
+                        name="" id="">
+                    <button id="donate-now-btn" class="btn bg-[#B4F461] w-full ">Donate Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
