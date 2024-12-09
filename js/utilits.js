@@ -39,8 +39,8 @@ function handleDonation(inputId, totalDonateId, balanceId) {
     const div = document.createElement('div');
     div.innerHTML = `
       <div class="border-2 bg-slate-100 rounded-lg mb-3 p-3">
-        <p class="text-2xl font-semibold mb-2">${donateInputAmount} Taka is Donated for ${title}</p>
-        <p class="font-semibold">${currentDateTime}</p> 
+        <p class="text-2xl font-semibold mb-2">${donateInputAmount} Taka is  ${title}</p>
+        <p class="font-semibold"><span class="font-bold">Date</span>: ${currentDateTime}</p> 
       </div>
     `;
     document.getElementById('history-container').appendChild(div);
